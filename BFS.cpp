@@ -12,7 +12,7 @@ public:
 	Graph(int V);
 	void addEdge(int u,int v);
 	void BFS(int s);
-};
+}; //End of class declaration
 
 Graph::Graph(int V){
 	this->V=V;
