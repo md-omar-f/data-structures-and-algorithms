@@ -1,4 +1,6 @@
-#include<bits/stdc++.h>
+//#include<bits/stdc++.h>
+
+#include<iostream>
 using namespace std;
 
 struct graph{
@@ -7,11 +9,6 @@ struct graph{
 
 int32_t main()
 {
-	#ifndef ONLINE_JUDGE
-	freopen("input.txt","r",stdin);
-	freopen("output.txt","w",stdout);
-	#endif
-
 
 	int zzz=100010;
 	printf("address of zzz is : %d\n",&zzz);
@@ -30,6 +27,8 @@ int32_t main()
 	int aaa=105;
 	printf("adress of aaa: %d\n",&aaa);
 
+	int zzzzz;
+	cin>>zzzzz;
 
 
 	return 0;

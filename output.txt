@@ -1,3 +1,2 @@
-Pattern found at index: 0
-Pattern found at index: 9
-Pattern found at index: 12
+gcd is: 5
+lcm is: 60
