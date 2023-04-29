@@ -1,2 +1,1 @@
-gcd is: 5
-lcm is: 60
+0
