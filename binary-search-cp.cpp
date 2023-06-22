@@ -13,7 +13,7 @@ int bin_search(vector<int>& v, int to_find) {
     int lo = 0;
     int hi = v.size() - 1;
     while(hi - lo > 1) {
-        int mid = (hi + lo) / 2;
+        int mid = (hi + lo) / 2; // or mid = low + (high - low) / 2;
         if(v[mid] < to_find) {
             lo = mid + 1;
         } else {

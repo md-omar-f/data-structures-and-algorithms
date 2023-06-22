@@ -286,12 +286,16 @@ int32_t main() {
     printSt(st);
     cout << endl;
 
+    cout << "multiset properties" << endl;
+
     multiset<int> mst; // can be used as priority queue
     mst.insert(10);
     mst.insert(9);
     mst.insert(11);
     mst.insert(8);
     mst.insert(9);
+
+    mst.erase(mst.find(9)); // if we use mst.erase(9) then all 2 9's will be deleted
 
     printMst(mst);
     cout << endl;
